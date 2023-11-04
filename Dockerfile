@@ -1,4 +1,4 @@
-FROM conda/miniconda3:latest
+FROM python:3.9 
 
 RUN mkdir -p /mlflow/mlruns
 
