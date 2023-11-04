@@ -80,7 +80,7 @@ def train(cwd, logger, in_alpha, in_l1_ratio):
     return lr, rmse, mae, r2
 
 
-@hydra.main(config_path='config.yaml')
+@hydra.main(config_name='config.yaml')
 def main(cfg: DictConfig) -> None:
     """Main part of this example."""
 
